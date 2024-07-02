@@ -1,40 +1,8 @@
-This contain 3 sub-projects:
-1. Word Correction using levenshtein_distance
-2. Object Detection
-3. Simple Chatbot
-   
+#LLMs - RAG 
 
-# Streamlit Project
+RAG(Retrieval Augmented Generation) là một kỹ thuật giúp LLMs cải thiện chất lượng kết quả tạo sinh bằng cách tích hợp nội dung truy vấn được từ một nguồn tài liệu nào đó để trả lời cho một câu hỏi đầu vào. Trong project này, chúng ta sẽ tìm hiểu cách xây dựng một chương trình RAG cơ bản. Đồng thời, ứng dụng chương trình vào việc hỏi đáp tài liệu bài học trong khóa AIO. Theo đó, Input và Output của chương trình là:
 
-This Streamlit application showcases various machine learning models and utilities. Its includes scripts for calculating Levenshtein distance, performing object detection with a MobileNet SSD model, and a simple chatbot implementation.
+• Input: File tài liệu cần hỏi đáp và một câu hỏi liên quan đến nội dung tài liệu.
 
-## Installation
-1. Clone the repository:
-```sh
-git clone https://github.com/ThiDungNguyen/streamlit_examples.git
-cd streamlit_example
-```
-2. (Optional) Create and activate a virtual environment:
-```sh
-python3 -m venv .pytorch
-source .pytorch/bin/activate
-```
-3. Install the required dependencies:
-```sh
-pip install -r requirements.txt
-```
+• Output: Câu trả lời.
 
-## Running the Application
-Once everything is ready, you can launch the application by running one of the following commands:
-- [Levenshtein Distance Calculation](https://app-project-6q8qbsczuhh54nzt3xatcc.streamlit.app/)
-```sh
-streamlit run scripts/01_word_correction.py
-```
-- [Object Detection](https://app-project-br7kujv2xfmky84mbbzqvq.streamlit.app/)
-```sh
-streamlit run scripts/02_object_detection.py
-```
-- [Chatbot](https://app-project-v8ffadoqxud23vgymydvp3.streamlit.app/)
-```sh
-streamlit run scripts/03_chatbot.py
-```
